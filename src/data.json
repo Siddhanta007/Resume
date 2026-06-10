@@ -1,0 +1,212 @@
+{
+  "name": "Sri Krishna",
+  "title": "AI Systems & Machine Learning Engineer",
+  "contact": {
+    "phone": "+91 8409938989",
+    "email": "srikrishna11ray@gmail.com",
+    "linkedin": "linkedin.com/in/sri-krishna007",
+    "linkedinUrl": "https://linkedin.com/in/sri-krishna007",
+    "github": "github.com/Siddhanta007",
+    "githubUrl": "https://github.com/Siddhanta007"
+  },
+  "summary": "AI Systems & Machine Learning Engineer with 2 years of experience developing production-grade generative AI, agentic LLM solutions, predictive models, and time-series forecasting systems across industrial and financial domains. Expert in designing retrieval-augmented systems (RAG), multi-agent workflows, legacy code modernization, and custom optimization algorithms. Contributed to an enterprise operational intelligence platform featured in the Wall Street Journal and recognized with the LTIM Energy Portfolio Innovators Award. Currently pursuing the MITx MicroMasters in Statistics and Data Science to deepen expertise in machine learning, statistical modeling, and analytical frameworks.",
+  "skills": [
+    {
+      "category": "Languages & Core",
+      "items": [
+        "Python",
+        "SQL"
+      ]
+    },
+    {
+      "category": "Generative AI & LLM Systems",
+      "items": [
+        "Agentic AI",
+        "Multi-Agent Systems",
+        "RAG",
+        "GraphRAG",
+        "LLM Orchestration",
+        "LangChain",
+        "LangGraph",
+        "MCP",
+        "Prompt Engineering",
+        "Structured Outputs",
+        "Text-to-SQL"
+      ]
+    },
+    {
+      "category": "Machine Learning & Deep Learning",
+      "items": [
+        "Predictive Modeling",
+        "Time-Series Forecasting",
+        "Regression & Classification",
+        "Feature Engineering",
+        "Model Evaluation",
+        "Ensemble Methods",
+        "TensorFlow"
+      ]
+    },
+    {
+      "category": "Statistics & Mathematics",
+      "items": [
+        "Statistical Inference",
+        "Probability Theory",
+        "Hypothesis Testing",
+        "Stationarity Testing",
+        "Mathematical Optimization"
+      ]
+    },
+    {
+      "category": "Libraries & Frameworks",
+      "items": [
+        "Scikit-Learn",
+        "Hugging Face",
+        "NumPy",
+        "Pandas",
+        "SciPy",
+        "Reranking"
+      ]
+    },
+    {
+      "category": "Cloud, Data & Platforms",
+      "items": [
+        "AWS (Bedrock, Agent Core, Lambda, SageMaker, S3, DynamoDB)",
+        "Snowflake",
+        "Palantir",
+        "Docker",
+        "Git"
+      ]
+    },
+    {
+      "category": "Industries & Domains",
+      "items": [
+        "Financial Markets",
+        "Oil & Gas",
+        "BFSI"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "LTIMindtree",
+      "location": "Kolkata, India",
+      "role": "Software Engineer (GenAI & Machine Learning)",
+      "period": "May 2024 – Present",
+      "bullets": [
+        "Voice-Enabled Text-to-SQL Assistant: Enabled field engineers and operational teams to access enterprise data through natural language by developing a voice-enabled Text-to-SQL assistant leveraging LLM reasoning, agentic workflows, and Snowflake integration to generate real-time conversational responses.",
+        "Legacy Code Modernization: De-risked legacy migration and modernization initiatives for a Tier-1 American banking client by engineering an LLM-powered reverse-engineering platform that automatically transformed complex, undocumented legacy COBOL applications into structured functional documentation.",
+        "Industrial Decision Support & Forecasting: Developed machine learning and time-series forecasting solutions for industrial decision support, including gross-margin prediction and equipment failure forecasting using statistical feature engineering, time-series analysis, and model evaluation techniques on operational and market datasets.",
+        "GenAI-Assisted Migration Workflows: Contributed to enterprise modernization initiatives by building GenAI-assisted workflows that converted spreadsheet-driven, legacy business applications into scalable web-based systems with clean, maintainable backend logic."
+      ]
+    },
+    {
+      "company": "LTIMindtree",
+      "location": "Remote",
+      "role": "Software Engineering Intern (IGNITE)",
+      "period": "Aug 2023 – Oct 2023",
+      "bullets": [
+        "Completed LTIMindtree's IGNITE engineering program with a focus on AI application development, machine learning workflows, and AWS-based cloud deployment.",
+        "Developed cloud-based machine learning prototypes using AWS services (Lambda, S3, SageMaker) and gained hands-on experience in model deployment, data processing pipelines, and enterprise AI application architectures."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "PINAKA – Agentic Trading Intelligence Platform / Assistant",
+      "status": "Demo available",
+      "url": "https://netra-terminal.vercel.app/home",
+      "tech": [
+        "Python",
+        "LangGraph",
+        "GraphRAG",
+        "RAG",
+        "KNN",
+        "Reranking",
+        "LLMs",
+        "Feature Engineering"
+      ],
+      "desc": "A retail trading assistant and intelligence platform that formalizes discretionary trading methodologies into a structured market-state representation for systematic analysis of market context, trade opportunities, and execution conditions. It features a multi-agent GraphRAG framework that combines retrieval, graph-based knowledge representation, and LLM reasoning to generate doctrine-grounded market assessments and context-aware decision support using live market data."
+    },
+    {
+      "name": "Applied Predictive Modeling",
+      "status": "GitHub repository",
+      "url": "https://github.com/Siddhanta007",
+      "tech": [
+        "Python",
+        "Scikit-Learn",
+        "XGBoost",
+        "Time-Series Analysis",
+        "Feature Engineering"
+      ],
+      "desc": "Developed reusable end-to-end machine learning pipelines for predictive modeling and time-series forecasting. Incorporates advanced data preprocessing, statistical feature engineering, model training, validation, evaluation, and comparative analysis across multiple algorithms and time-series datasets."
+    },
+    {
+      "name": "Executive XAI Boardroom Agent",
+      "status": "Active development",
+      "url": "https://github.com/Siddhanta007/executive-xai-boardroom-agent",
+      "tech": [
+        "Python",
+        "LangGraph",
+        "LLMs",
+        "Multi-Agent Systems",
+        "Explainable AI (XAI)",
+        "RAG"
+      ],
+      "desc": "Building an explainable multi-agent system designed to model, simulate, and analyze executive boardroom deliberations. Synthesizes strategic alternatives, evaluates financial and operational tradeoffs, and provides auditable, doctrine-grounded decision support for complex business scenarios."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Massachusetts Institute of Technology (MITx)",
+      "degree": "MicroMasters Program in Statistics and Data Science (Methods Track)",
+      "period": "Jan 2026 – Present",
+      "grade": "Focus areas: Probability, Statistics, Machine Learning, Data Analysis"
+    },
+    {
+      "institution": "St. Thomas' College of Engineering and Technology",
+      "degree": "B.Tech in Information Technology",
+      "period": "Aug 2019 – May 2023",
+      "grade": "CGPA: 9.10/10 | Kolkata, India"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Enterprise AI Recognition",
+      "details": "Contributed to an AI-powered operational intelligence platform featured in the Wall Street Journal; received the LTIM Energy Portfolio Innovators Award for enterprise GenAI solution development."
+    },
+    {
+      "title": "Amazon ML Summer School",
+      "details": "Selected for the Amazon ML Summer School, completing advanced training in deep learning, probabilistic graphical models, causal inference, and reinforcement learning."
+    },
+    {
+      "title": "Competitive Programming Excellence",
+      "details": "Achieved a Global Rank of 19 in the CodeChef November Cook-Off out of 6,000+ participants; solved 1,000+ Data Structures & Algorithms problems across various platforms."
+    }
+  ],
+  "certifications": [
+    {
+      "name": "GitHub Copilot Certified",
+      "issuer": "GitHub",
+      "date": "2024",
+      "details": "Demonstrated proficiency in AI-assisted software development, prompt engineering, and modern developer workflows."
+    }
+  ],
+  "hobbies": [
+    {
+      "name": "Cricket",
+      "details": "Active player and cricket enthusiast. Enjoy analyzing match strategies, team dynamics, and statistical performances."
+    },
+    {
+      "name": "Philosophy",
+      "details": "Deep interest in exploring ethical frameworks, philosophy of mind, and the intersection of artificial intelligence and cognitive science."
+    },
+    {
+      "name": "History",
+      "details": "Fascinated by ancient civilizations, historical turning points, and reading accounts of structural and technological evolutions."
+    },
+    {
+      "name": "Plantation",
+      "details": "Passionate about gardening, nurturing green spaces, and cultivating a variety of plants to promote biodiversity and environmental care."
+    }
+  ]
+}
