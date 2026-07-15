@@ -1,0 +1,17 @@
+# Dependencies and generated website output
+node_modules/
+dist/
+.DS_Store
+
+# Local-only career workflow. Never commit job descriptions, cover letters,
+# application records, contact notes, or interview notes.
+job_search/
+
+# Private/local professional materials. The public Git repository contains the
+# portfolio website, not résumé sources, generated documents, or job records.
+local_resumes/
+tex_resume/
+portfolio/
+output/
+scripts/
+tmp/

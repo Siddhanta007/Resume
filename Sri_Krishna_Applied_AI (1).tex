@@ -1,0 +1,148 @@
+\documentclass[letterpaper,10pt]{article}
+
+% ---------- PACKAGES ----------
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[left=0.45in,right=0.45in,top=0.28in,bottom=0.30in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+\usepackage{microtype}
+
+% ---------- DOCUMENT STYLE ----------
+\pagestyle{empty}
+\raggedright
+\urlstyle{same}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\setlength{\emergencystretch}{3em}
+
+% ---------- SECTION STYLE ----------
+\titleformat{\section}
+  {\large\bfseries}
+  {}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{3pt}{1pt}
+
+% ---------- CUSTOM COMMANDS ----------
+\newcommand{\resumeSubheading}[4]{
+  \begin{tabularx}{\textwidth}{@{}Xr@{}}
+    \textbf{#1} & #2 \\
+    \textit{\small #3} & \textit{\small #4} \\
+  \end{tabularx}\vspace{-5pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \begin{tabularx}{\textwidth}{@{}Xr@{}}
+    \small #1 & \small #2 \\
+  \end{tabularx}\vspace{-5pt}
+}
+
+\newcommand{\resumeItem}[1]{\item \small{#1}}
+\newcommand{\resumeItemListStart}{
+  \begin{itemize}[leftmargin=0.18in,label=\textbullet,itemsep=0pt,topsep=1pt,parsep=0pt,partopsep=0pt]
+}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
+
+\begin{document}
+
+% ---------- HEADER ----------
+\begin{center}
+  {\Huge\textbf{Sri Krishna}} \\[2pt]
+  {\large\textbf{Applied AI Engineer $|$ Agentic AI \& LLM Systems}} \\[4pt]
+  \small
+  \href{tel:+918409938989}{+91 8409938989} $|$
+  \href{mailto:srikrishna11ray@gmail.com}{srikrishna11ray@gmail.com} $|$
+  \href{https://resume-hazel-tau-84.vercel.app/}{Portfolio} $|$
+  \href{https://www.linkedin.com/in/sri-krishna007/}{LinkedIn} $|$
+  \href{https://github.com/Siddhanta007}{GitHub}
+\end{center}
+\vspace{-7pt}
+
+% ---------- SUMMARY ----------
+\section{Professional Summary}
+\small{
+Applied AI Engineer with 2 years of experience building enterprise agentic and LLM-powered applications across energy and banking. Experienced in multi-agent workflows, voice interfaces, retrieval, tool integration, agent memory, caching, and cloud deployment. Contributed to an operational intelligence platform featured in the \textit{Wall Street Journal} and recognized with the LTIM Energy Portfolio Innovators Award. Currently pursuing the MITx MicroMasters in Statistics and Data Science.
+}
+
+% ---------- EXPERIENCE ----------
+\section{Experience}
+
+\resumeSubheading
+  {Software Engineer -- GenAI \& Machine Learning}
+  {May 2024 -- Present}
+  {LTIMindtree}
+  {Kolkata, India}
+
+\resumeItemListStart
+  \resumeItem{Architected and engineered the Well Agent component within a multi-agent operational intelligence platform, integrating AWS-based speech-to-text and text-to-speech services, Snowflake-backed data workflows, agent memory, session-aware caching, and voice-driven responses for field operators.}
+
+  \resumeItem{Refined request routing by enabling direct Well Agent invocation for eligible voice requests, avoiding redundant master-agent hops and reducing unnecessary latency and model cost.}
+
+  \resumeItem{Adapted and deployed the Well Agent across AWS Bedrock, AWS Bedrock AgentCore as an MCP server, and Palantir, working within platform-specific runtime and security constraints.}
+
+  \resumeItem{Engineered an LLM-powered reverse-engineering workflow that transformed complex COBOL applications into structured functional documentation for a Tier-1 banking client.}
+
+  \resumeItem{Contributed to GenAI-assisted modernization workflows that converted spreadsheet-driven business processes into scalable web applications with maintainable backend logic.}
+\resumeItemListEnd
+
+\resumeSubheading
+  {Software Engineering Intern -- IGNITE}
+  {Aug 2023 -- Oct 2023}
+  {LTIMindtree}
+  {Remote}
+
+\resumeItemListStart
+  \resumeItem{Completed LTIMindtree's IGNITE engineering program with a focus on AI application development, machine learning workflows, and AWS-based cloud deployment.}
+\resumeItemListEnd
+
+% ---------- PROJECTS ----------
+\section{Projects}
+
+\resumeProjectHeading
+  {\textbf{NETRA -- Agentic Trading Intelligence Platform} \href{https://netra-terminal.vercel.app/home}{[Demo]} $|$ \emph{LangGraph, GraphRAG, RAG, Reranking, LLMs}}
+  {}
+
+\resumeItemListStart
+  \resumeItem{Built NETRA as an agentic decision-support platform that combines PINAKA's structured trading doctrine with MAYA's multi-agent retrieval and reasoning workflows.}
+
+  \resumeItem{Implemented graph-based knowledge representation, hybrid retrieval, reranking, tool orchestration, and structured outputs to generate doctrine-grounded assessments of market structure, liquidity, auction state, and execution context.}
+
+  \resumeItem{Iteratively refined component boundaries, agent responsibilities, retrieval behaviour, and failure handling to convert a complex discretionary framework into a working analytical product.}
+\resumeItemListEnd
+
+% ---------- TECHNICAL SKILLS ----------
+\section{Technical Skills}
+\small{
+\textbf{Programming:} Python, SQL \\
+\textbf{AI Systems:} Agentic AI, Multi-Agent Workflows, LLM Orchestration, MCP, RAG, GraphRAG, Prompt Engineering, Structured Outputs, Text-to-SQL \\
+\textbf{Frameworks:} LangGraph, LangChain, Hugging Face, Scikit-Learn, TensorFlow, NumPy, Pandas \\
+\textbf{Cloud \& Data:} AWS Bedrock, Bedrock AgentCore, Lambda, EKS, S3, DynamoDB, Snowflake, Palantir, Docker, Git
+}
+
+% ---------- EDUCATION ----------
+\section{Education}
+
+\resumeSubheading
+  {Massachusetts Institute of Technology (MITx)}
+  {Jan 2026 -- Present}
+  {MicroMasters Program in Statistics and Data Science -- Methods Track}
+  {Remote}
+
+\resumeSubheading
+  {St. Thomas' College of Engineering and Technology}
+  {Aug 2019 -- May 2023}
+  {B.Tech in Information Technology -- CGPA: 9.10/10}
+  {Kolkata, India}
+
+% ---------- ACHIEVEMENTS ----------
+\section{Achievements \& Certifications}
+\resumeItemListStart
+  \resumeItem{\textbf{Enterprise AI Recognition:} Contributed to an AI-powered operational intelligence platform featured in the \textit{Wall Street Journal}; received the \textbf{LTIM Energy Portfolio Innovators Award}.}
+  \resumeItem{\textbf{Machine Learning:} Selected for the \textbf{Amazon ML Summer School}, completing advanced training in deep learning, probabilistic graphical models, causal inference, and reinforcement learning.}
+  \resumeItem{\textbf{Competitive Programming:} Global Rank 19 in the CodeChef November Cook-Off among 6,000+ participants; solved 1,000+ DSA problems.}
+  \resumeItem{\textbf{Certification:} GitHub Copilot Certified.}
+\resumeItemListEnd
+
+\end{document}
