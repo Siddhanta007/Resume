@@ -1,8 +1,8 @@
 {
   "name": "Sri Krishna",
-  "role": "Applied AI Engineer",
+  "role": "Data Scientist",
   "location": "Kolkata, India",
-  "availability": "Open to applied AI and machine-learning opportunities",
+  "availability": "Open to data science, machine-learning, and applied AI opportunities",
   "email": "srikrishna11ray@gmail.com",
   "phone": "+91 8409938989",
   "links": {
@@ -12,9 +12,9 @@
     "netraStory": "https://netra-terminal.vercel.app/about"
   },
   "hero": {
-    "eyebrow": "Enterprise AI · Applied ML · Financial intelligence",
-    "headline": "I build AI systems for decisions that matter.",
-    "description": "Applied AI Engineer with 2+ years of experience turning industrial, enterprise, and financial problems into multi-agent workflows, predictive models, and human-in-the-loop decision systems.",
+    "eyebrow": "Data Science · Machine Learning · Deep Learning · NLP",
+    "headline": "I turn complex data into intelligent systems.",
+    "description": "Data Scientist with 2+ years of experience applying machine learning, deep learning, and natural language processing to industrial, enterprise, and financial problems—from predictive models and representation learning to generative and agentic NLP systems.",
     "direction": "Currently deepening statistical modelling and machine learning through the MITx MicroMasters while building toward quantitative ML engineering."
   },
   "proof": [
@@ -90,16 +90,16 @@
       "category": "Predictive maintenance · Energy",
       "status": "In progress",
       "description": "Developing a failure-risk workflow for Electric Submersible Pumps using multivariate operational and sensor time-series data.",
-      "detail": "Work spans data quality, rolling and trend features, classification baselines, tree ensembles, time-aware validation, calibration, and false-alarm analysis.",
-      "tags": ["Time series", "Feature engineering", "Classification", "PR-AUC", "Calibration"]
+      "detail": "Work spans data quality, statistical time-series features, autoencoder-based representation learning, classification baselines, tree ensembles, time-aware validation, calibration, and false-alarm analysis.",
+      "tags": ["Time series", "Autoencoders", "Representation learning", "Feature engineering", "Classification", "PR-AUC", "Calibration"]
     },
     {
       "name": "Gross Margin Prediction",
       "category": "Forecasting · Business planning",
       "status": "In progress",
       "description": "Building a machine-learning workflow to estimate future gross margin from historical business and operational data.",
-      "detail": "The workflow connects data preparation, leakage-aware feature design, business baselines, regression model comparison, temporal validation, and interpretable outputs.",
-      "tags": ["Regression", "Forecasting", "XGBoost", "Validation", "Decision support"]
+      "detail": "The workflow connects data preparation, statistical feature engineering, autoencoder-based feature learning, business baselines, regression model comparison, temporal validation, and interpretable outputs.",
+      "tags": ["Regression", "Forecasting", "Autoencoders", "Representation learning", "XGBoost", "Validation", "Decision support"]
     },
     {
       "name": "COBOL Functional Documentation",
@@ -120,11 +120,11 @@
   ],
   "experience": [
     {
-      "role": "Software Engineer — GenAI & Machine Learning",
+      "role": "Software Engineer — AI & Machine Learning",
       "company": "LTIMindtree",
       "period": "May 2024 — Present",
       "location": "Kolkata, India",
-      "summary": "Individual contributor across enterprise GenAI, industrial predictive modelling, application modernization, and cloud AI deployment."
+      "summary": "Individual contributor across machine learning, deep learning, natural language processing, enterprise AI systems, application modernization, and cloud deployment."
     },
     {
       "role": "Software Engineering Intern — IGNITE",
@@ -143,24 +143,24 @@
   ],
   "skillGroups": [
     {
-      "title": "Generative AI",
-      "description": "LLM systems designed around retrieval, evidence, orchestration, structured outputs, and human authority.",
-      "items": ["Agentic AI", "Multi-agent workflows", "LLM orchestration", "MCP", "RAG", "GraphRAG", "Prompt engineering", "Structured outputs", "Text-to-SQL"]
-    },
-    {
-      "title": "AI frameworks",
-      "description": "Frameworks and retrieval methods used to implement reusable AI workflows and decision-support systems.",
-      "items": ["LangGraph", "LangChain", "Hugging Face", "Reranking", "Hybrid retrieval", "Model routing", "Embeddings"]
-    },
-    {
       "title": "Machine learning & statistics",
-      "description": "Models, statistical reasoning, and evaluation aligned to time, data quality, and decision cost.",
+      "description": "Predictive modelling grounded in statistical reasoning, careful feature design, temporal structure, and decision-aware evaluation.",
       "items": ["Regression", "Classification", "Time-series analysis", "Forecasting", "Feature engineering", "Model evaluation", "Error analysis", "Calibration", "Probability", "Statistical inference"]
     },
     {
-      "title": "ML libraries",
-      "description": "Libraries used for data preparation, statistical analysis, model development, and validation.",
-      "items": ["Scikit-learn", "XGBoost", "TensorFlow", "NumPy", "Pandas", "SciPy"]
+      "title": "Deep learning & representation learning",
+      "description": "Neural methods for representation learning, transfer learning, and model adaptation across operational, business, and language data.",
+      "items": ["Neural networks", "Autoencoders", "Representation learning", "Transfer learning", "Model adaptation", "TensorFlow", "Hugging Face"]
+    },
+    {
+      "title": "Natural language processing",
+      "description": "NLP foundations spanning language representation, transformer adaptation, evaluation, retrieval, reasoning, and structured language interfaces.",
+      "items": ["Tokenization", "Embeddings", "Transformer architecture", "Self-attention", "Fine-tuning", "LLM inference", "LLM evaluation", "RAG", "GraphRAG", "Text-to-SQL", "Prompt engineering", "Structured outputs"]
+    },
+    {
+      "title": "Generative & agentic NLP systems",
+      "description": "Enterprise NLP systems that combine language models with retrieval, tools, memory, orchestration, and human oversight.",
+      "items": ["Generative AI", "Agentic AI", "Multi-agent workflows", "LLM orchestration", "LangGraph", "LangChain", "MCP", "Tool use", "Memory", "Reranking", "Hybrid retrieval", "Model routing"]
     },
     {
       "title": "Cloud & data",
@@ -168,9 +168,9 @@
       "items": ["AWS Bedrock", "AgentCore", "Lambda", "EKS", "S3", "DynamoDB", "Snowflake", "Palantir", "SageMaker"]
     },
     {
-      "title": "Engineering",
-      "description": "Supporting programming and delivery tools used to turn AI and ML work into usable systems.",
-      "items": ["Python", "SQL", "FastAPI", "REST APIs", "Docker", "Git", "Vercel"]
+      "title": "Programming & ML libraries",
+      "description": "Programming, modelling, and delivery tools used to take data-science work from analysis to usable systems.",
+      "items": ["Python", "SQL", "Scikit-learn", "XGBoost", "NumPy", "Pandas", "SciPy", "FastAPI", "Docker", "Git"]
     }
   ],
   "recognition": [

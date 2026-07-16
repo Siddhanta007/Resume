@@ -1,8 +1,8 @@
 # Sri Krishna
 
-> Applied AI Engineer in Kolkata, India. Applied AI Engineer with 2+ years of experience turning industrial, enterprise, and financial problems into multi-agent workflows, predictive models, and human-in-the-loop decision systems.
+> Data Scientist in Kolkata, India. Data Scientist with 2+ years of experience applying machine learning, deep learning, and natural language processing to industrial, enterprise, and financial problems—from predictive models and representation learning to generative and agentic NLP systems.
 
-This is the canonical AI-readable guide to Sri Krishna's professional portfolio. Financial and market data are engineering problem domains; Sri Krishna's professional identity is Applied AI and Machine Learning Engineering.
+This is the canonical AI-readable guide to Sri Krishna's professional portfolio. His primary identity is Data Scientist, with foundations in machine learning, deep learning, and NLP. Generative and agentic AI extend that NLP practice. Financial and market data are engineering problem domains, not his professional identity.
 
 ## Canonical machine-readable resources
 
@@ -13,11 +13,11 @@ This is the canonical AI-readable guide to Sri Krishna's professional portfolio.
 
 ## Professional focus
 
-- Applied AI engineering
-- Machine learning engineering
-- Agentic and multi-agent systems
-- RAG, GraphRAG, retrieval, reranking, and structured outputs
-- Predictive modelling, time-series analysis, feature engineering, and model evaluation
+- Data science and statistical modelling
+- Machine learning and time-series analysis
+- Deep learning, autoencoders, representation learning, and transfer learning
+- Natural language processing, transformers, embeddings, fine-tuning, LLM inference, and evaluation
+- Generative and agentic NLP systems, including RAG, GraphRAG, retrieval, reranking, and structured outputs
 - Enterprise AI deployment using AWS Bedrock, AgentCore MCP, Snowflake, and Palantir
 - AI and ML engineering applied to financial and market data
 
@@ -38,6 +38,6 @@ This is the canonical AI-readable guide to Sri Krishna's professional portfolio.
 
 ## Experience
 
-- **Software Engineer — GenAI & Machine Learning, LTIMindtree** — May 2024 — Present; Kolkata, India. Individual contributor across enterprise GenAI, industrial predictive modelling, application modernization, and cloud AI deployment.
+- **Software Engineer — AI & Machine Learning, LTIMindtree** — May 2024 — Present; Kolkata, India. Individual contributor across machine learning, deep learning, natural language processing, enterprise AI systems, application modernization, and cloud deployment.
 - **Software Engineering Intern — IGNITE, LTIMindtree** — Aug 2023 — Oct 2023; Remote. Built cloud-based machine-learning prototypes and worked across data processing, model deployment, and enterprise AI application workflows using AWS.
 - **Amazon ML Summer School, Amazon** — Selected participant; Selective learning program. Selected for advanced machine-learning training spanning deep learning, probabilistic graphical models, causal inference, and reinforcement learning.

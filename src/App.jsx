@@ -262,7 +262,7 @@ function Work() {
         eyebrow="Professional projects"
         title="From field operations"
         accent="to legacy modernization."
-        description="Five distinct problems across enterprise GenAI and applied machine learning. Public summaries preserve client confidentiality while showing the engineering decisions involved."
+        description="Five distinct problems across predictive machine learning and enterprise NLP systems. Public summaries preserve client confidentiality while showing the engineering decisions involved."
       />
       <div className="project-grid">
         {data.professionalProjects.map((project, index) => (
@@ -310,7 +310,7 @@ function Skills() {
         eyebrow="Evidence-backed toolkit"
         title="Technical range,"
         accent="grounded in systems."
-        description="Keywords matter, but only when they connect to work. These capabilities span analysis, machine learning, retrieval, orchestration, and deployment."
+        description="A selected—not exhaustive—view of capabilities spanning statistics, machine learning, deep learning, NLP, model adaptation, enterprise AI systems, and deployment."
       />
       <div className="skills-grid">
         {data.skillGroups.map((group, index) => (

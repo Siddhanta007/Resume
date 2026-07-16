@@ -2,9 +2,9 @@
 
 ## Identity
 
-- Professional title: Applied AI Engineer
+- Professional title: Data Scientist
 - Location: Kolkata, India
-- Availability: Open to applied AI and machine-learning opportunities
+- Availability: Open to data science, machine-learning, and applied AI opportunities
 - Email: srikrishna11ray@gmail.com
 - LinkedIn: https://www.linkedin.com/in/sri-krishna007/
 - GitHub: https://github.com/Siddhanta007
@@ -12,11 +12,11 @@
 
 ## Professional summary
 
-Applied AI Engineer with 2+ years of experience turning industrial, enterprise, and financial problems into multi-agent workflows, predictive models, and human-in-the-loop decision systems.
+Data Scientist with 2+ years of experience applying machine learning, deep learning, and natural language processing to industrial, enterprise, and financial problems—from predictive models and representation learning to generative and agentic NLP systems.
 
 Currently deepening statistical modelling and machine learning through the MITx MicroMasters while building toward quantitative ML engineering.
 
-Important interpretation: Sri Krishna is an Applied AI and Machine Learning Engineer. Financial and market data are chosen domains for engineering and research, not a claim that trading is his primary profession.
+Important interpretation: Sri Krishna is a Data Scientist with machine-learning, deep-learning, and NLP foundations. His generative and agentic AI work is an extension of NLP into enterprise systems. Financial and market data are chosen domains for engineering and research, not a claim that trading is his primary profession.
 
 ## Professional impact
 
@@ -27,33 +27,9 @@ Important interpretation: Sri Krishna is an Applied AI and Machine Learning Engi
 
 ## Skills and keywords
 
-### Generative AI
-
-LLM systems designed around retrieval, evidence, orchestration, structured outputs, and human authority.
-
-- Agentic AI
-- Multi-agent workflows
-- LLM orchestration
-- MCP
-- RAG
-- GraphRAG
-- Prompt engineering
-- Structured outputs
-- Text-to-SQL
-### AI frameworks
-
-Frameworks and retrieval methods used to implement reusable AI workflows and decision-support systems.
-
-- LangGraph
-- LangChain
-- Hugging Face
-- Reranking
-- Hybrid retrieval
-- Model routing
-- Embeddings
 ### Machine learning & statistics
 
-Models, statistical reasoning, and evaluation aligned to time, data quality, and decision cost.
+Predictive modelling grounded in statistical reasoning, careful feature design, temporal structure, and decision-aware evaluation.
 
 - Regression
 - Classification
@@ -65,16 +41,49 @@ Models, statistical reasoning, and evaluation aligned to time, data quality, and
 - Calibration
 - Probability
 - Statistical inference
-### ML libraries
+### Deep learning & representation learning
 
-Libraries used for data preparation, statistical analysis, model development, and validation.
+Neural methods for representation learning, transfer learning, and model adaptation across operational, business, and language data.
 
-- Scikit-learn
-- XGBoost
+- Neural networks
+- Autoencoders
+- Representation learning
+- Transfer learning
+- Model adaptation
 - TensorFlow
-- NumPy
-- Pandas
-- SciPy
+- Hugging Face
+### Natural language processing
+
+NLP foundations spanning language representation, transformer adaptation, evaluation, retrieval, reasoning, and structured language interfaces.
+
+- Tokenization
+- Embeddings
+- Transformer architecture
+- Self-attention
+- Fine-tuning
+- LLM inference
+- LLM evaluation
+- RAG
+- GraphRAG
+- Text-to-SQL
+- Prompt engineering
+- Structured outputs
+### Generative & agentic NLP systems
+
+Enterprise NLP systems that combine language models with retrieval, tools, memory, orchestration, and human oversight.
+
+- Generative AI
+- Agentic AI
+- Multi-agent workflows
+- LLM orchestration
+- LangGraph
+- LangChain
+- MCP
+- Tool use
+- Memory
+- Reranking
+- Hybrid retrieval
+- Model routing
 ### Cloud & data
 
 Cloud, deployment, and enterprise data systems used across professional and independent work.
@@ -88,17 +97,20 @@ Cloud, deployment, and enterprise data systems used across professional and inde
 - Snowflake
 - Palantir
 - SageMaker
-### Engineering
+### Programming & ML libraries
 
-Supporting programming and delivery tools used to turn AI and ML work into usable systems.
+Programming, modelling, and delivery tools used to take data-science work from analysis to usable systems.
 
 - Python
 - SQL
+- Scikit-learn
+- XGBoost
+- NumPy
+- Pandas
+- SciPy
 - FastAPI
-- REST APIs
 - Docker
 - Git
-- Vercel
 
 ## Independent portfolio
 
@@ -157,15 +169,15 @@ Supporting programming and delivery tools used to turn AI and ML work into usabl
 - Category: Predictive maintenance · Energy
 - Status: In progress
 - Summary: Developing a failure-risk workflow for Electric Submersible Pumps using multivariate operational and sensor time-series data.
-- Implementation: Work spans data quality, rolling and trend features, classification baselines, tree ensembles, time-aware validation, calibration, and false-alarm analysis.
-- Technology and methods: Time series, Feature engineering, Classification, PR-AUC, Calibration
+- Implementation: Work spans data quality, statistical time-series features, autoencoder-based representation learning, classification baselines, tree ensembles, time-aware validation, calibration, and false-alarm analysis.
+- Technology and methods: Time series, Autoencoders, Representation learning, Feature engineering, Classification, PR-AUC, Calibration
 ### Gross Margin Prediction
 
 - Category: Forecasting · Business planning
 - Status: In progress
 - Summary: Building a machine-learning workflow to estimate future gross margin from historical business and operational data.
-- Implementation: The workflow connects data preparation, leakage-aware feature design, business baselines, regression model comparison, temporal validation, and interpretable outputs.
-- Technology and methods: Regression, Forecasting, XGBoost, Validation, Decision support
+- Implementation: The workflow connects data preparation, statistical feature engineering, autoencoder-based feature learning, business baselines, regression model comparison, temporal validation, and interpretable outputs.
+- Technology and methods: Regression, Forecasting, Autoencoders, Representation learning, XGBoost, Validation, Decision support
 ### COBOL Functional Documentation
 
 - Category: Generative AI · Banking
@@ -183,11 +195,11 @@ Supporting programming and delivery tools used to turn AI and ML work into usabl
 
 ## Experience
 
-### Software Engineer — GenAI & Machine Learning — LTIMindtree
+### Software Engineer — AI & Machine Learning — LTIMindtree
 
 - Period: May 2024 — Present
 - Location or program type: Kolkata, India
-- Summary: Individual contributor across enterprise GenAI, industrial predictive modelling, application modernization, and cloud AI deployment.
+- Summary: Individual contributor across machine learning, deep learning, natural language processing, enterprise AI systems, application modernization, and cloud deployment.
 ### Software Engineering Intern — IGNITE — LTIMindtree
 
 - Period: Aug 2023 — Oct 2023

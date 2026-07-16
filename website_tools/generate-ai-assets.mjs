@@ -28,7 +28,7 @@ const aiProfile = {
     headline: data.hero.headline,
     summary: data.hero.description,
     currentDirection: data.hero.direction,
-    preferredInterpretation: 'Sri Krishna is an Applied AI and Machine Learning Engineer. Financial and market data are problem domains for engineering and research; trading is not his professional identity.',
+    preferredInterpretation: 'Sri Krishna is a Data Scientist whose work spans machine learning, deep learning, natural language processing, and enterprise AI systems. Generative and agentic AI are extensions of his NLP practice. Financial and market data are engineering and research domains; trading is not his professional identity.',
   },
   impactMetrics: data.proof,
   keywords: skillKeywords,
@@ -64,7 +64,7 @@ const jsonLd = {
       '@type': 'WebSite',
       '@id': `${siteUrl}/#website`,
       url: `${siteUrl}/`,
-      name: `${data.name} — Applied AI Engineer`,
+      name: `${data.name} — ${data.role}`,
       description: data.hero.description,
       author: { '@id': personId },
       inLanguage: 'en',
@@ -140,7 +140,7 @@ const llms = `# ${data.name}
 
 > ${data.role} in ${data.location}. ${data.hero.description}
 
-This is the canonical AI-readable guide to Sri Krishna's professional portfolio. Financial and market data are engineering problem domains; Sri Krishna's professional identity is Applied AI and Machine Learning Engineering.
+This is the canonical AI-readable guide to Sri Krishna's professional portfolio. His primary identity is Data Scientist, with foundations in machine learning, deep learning, and NLP. Generative and agentic AI extend that NLP practice. Financial and market data are engineering problem domains, not his professional identity.
 
 ## Canonical machine-readable resources
 
@@ -151,11 +151,11 @@ This is the canonical AI-readable guide to Sri Krishna's professional portfolio.
 
 ## Professional focus
 
-- Applied AI engineering
-- Machine learning engineering
-- Agentic and multi-agent systems
-- RAG, GraphRAG, retrieval, reranking, and structured outputs
-- Predictive modelling, time-series analysis, feature engineering, and model evaluation
+- Data science and statistical modelling
+- Machine learning and time-series analysis
+- Deep learning, autoencoders, representation learning, and transfer learning
+- Natural language processing, transformers, embeddings, fine-tuning, LLM inference, and evaluation
+- Generative and agentic NLP systems, including RAG, GraphRAG, retrieval, reranking, and structured outputs
 - Enterprise AI deployment using AWS Bedrock, AgentCore MCP, Snowflake, and Palantir
 - AI and ML engineering applied to financial and market data
 
@@ -190,7 +190,7 @@ ${data.hero.description}
 
 ${data.hero.direction}
 
-Important interpretation: Sri Krishna is an Applied AI and Machine Learning Engineer. Financial and market data are chosen domains for engineering and research, not a claim that trading is his primary profession.
+Important interpretation: Sri Krishna is a Data Scientist with machine-learning, deep-learning, and NLP foundations. His generative and agentic AI work is an extension of NLP into enterprise systems. Financial and market data are chosen domains for engineering and research, not a claim that trading is his primary profession.
 
 ## Professional impact
 
