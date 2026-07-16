@@ -1,0 +1,43 @@
+# Sri Krishna
+
+> Applied AI Engineer in Kolkata, India. Applied AI Engineer with 2+ years of experience turning industrial, enterprise, and financial problems into multi-agent workflows, predictive models, and human-in-the-loop decision systems.
+
+This is the canonical AI-readable guide to Sri Krishna's professional portfolio. Financial and market data are engineering problem domains; Sri Krishna's professional identity is Applied AI and Machine Learning Engineering.
+
+## Canonical machine-readable resources
+
+- [Complete AI profile](https://resume-hazel-tau-84.vercel.app/ai-profile.json): Structured JSON covering experience, projects, skills, education, achievements, and impact.
+- [Schema.org graph](https://resume-hazel-tau-84.vercel.app/profile.jsonld): JSON-LD describing the person, website, independent software systems, and professional projects.
+- [Full text portfolio](https://resume-hazel-tau-84.vercel.app/llms-full.txt): Detailed plain-text context for retrieval and AI assistants.
+- [Human-facing portfolio](https://resume-hazel-tau-84.vercel.app/): Main website.
+
+## Professional focus
+
+- Applied AI engineering
+- Machine learning engineering
+- Agentic and multi-agent systems
+- RAG, GraphRAG, retrieval, reranking, and structured outputs
+- Predictive modelling, time-series analysis, feature engineering, and model evaluation
+- Enterprise AI deployment using AWS Bedrock, AgentCore MCP, Snowflake, and Palantir
+- AI and ML engineering applied to financial and market data
+
+## Independent portfolio
+
+- **NETRA** (Main application; Production): The common application used to run the trading systems.
+- **MAYA** (Shared AI system; Production): The reusable AI capabilities shared by the trading systems.
+- **PINAKA** (AI-assisted trading system; Production): AI organizes the analysis; the trader makes the final decision.
+- **TRISHUL** (ML and statistical trading system; In progress): Statistics, machine learning, and tested rules drive the process.
+
+## Professional work
+
+- **Voice-Driven Multi-Agent Well Intelligence** — Enterprise GenAI · Energy: Architected the Well Agent so field operators can ask natural-language questions and receive contextual answers about wells, equipment, and operations.
+- **ESP Failure Prediction** — Predictive maintenance · Energy: Developing a failure-risk workflow for Electric Submersible Pumps using multivariate operational and sensor time-series data.
+- **Gross Margin Prediction** — Forecasting · Business planning: Building a machine-learning workflow to estimate future gross margin from historical business and operational data.
+- **COBOL Functional Documentation** — Generative AI · Banking: Engineered an LLM-assisted reverse-engineering workflow that turns undocumented COBOL applications into structured functional documentation.
+- **Excel-to-React Migration** — Generative AI · Modernization: Developed a GenAI-assisted migration workflow that converts spreadsheet-driven processes into structured requirements for React applications.
+
+## Experience
+
+- **Software Engineer — GenAI & Machine Learning, LTIMindtree** — May 2024 — Present; Kolkata, India. Individual contributor across enterprise GenAI, industrial predictive modelling, application modernization, and cloud AI deployment.
+- **Software Engineering Intern — IGNITE, LTIMindtree** — Aug 2023 — Oct 2023; Remote. Built cloud-based machine-learning prototypes and worked across data processing, model deployment, and enterprise AI application workflows using AWS.
+- **Amazon ML Summer School, Amazon** — Selected participant; Selective learning program. Selected for advanced machine-learning training spanning deep learning, probabilistic graphical models, causal inference, and reinforcement learning.

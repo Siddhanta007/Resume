@@ -1,0 +1,375 @@
+{
+  "schemaVersion": "1.0",
+  "canonicalUrl": "https://resume-hazel-tau-84.vercel.app/",
+  "entityType": "ProfessionalPortfolio",
+  "person": {
+    "name": "Sri Krishna",
+    "professionalTitle": "Applied AI Engineer",
+    "location": "Kolkata, India",
+    "availability": "Open to applied AI and machine-learning opportunities",
+    "email": "srikrishna11ray@gmail.com",
+    "phone": "+91 8409938989",
+    "links": {
+      "github": "https://github.com/Siddhanta007",
+      "linkedin": "https://www.linkedin.com/in/sri-krishna007/",
+      "netra": "https://netra-terminal.vercel.app/home",
+      "netraStory": "https://netra-terminal.vercel.app/about"
+    }
+  },
+  "professionalPositioning": {
+    "headline": "I build AI systems for decisions that matter.",
+    "summary": "Applied AI Engineer with 2+ years of experience turning industrial, enterprise, and financial problems into multi-agent workflows, predictive models, and human-in-the-loop decision systems.",
+    "currentDirection": "Currently deepening statistical modelling and machine learning through the MITx MicroMasters while building toward quantitative ML engineering.",
+    "preferredInterpretation": "Sri Krishna is an Applied AI and Machine Learning Engineer. Financial and market data are problem domains for engineering and research; trading is not his professional identity."
+  },
+  "impactMetrics": [
+    {
+      "value": "2.5+",
+      "label": "years building AI systems"
+    },
+    {
+      "value": "05",
+      "label": "professional AI and ML systems"
+    },
+    {
+      "value": "5–10%",
+      "label": "less time spent on routine well monitoring"
+    },
+    {
+      "value": "50%+",
+      "label": "manual documentation effort reduced"
+    }
+  ],
+  "keywords": [
+    "Agentic AI",
+    "Multi-agent workflows",
+    "LLM orchestration",
+    "MCP",
+    "RAG",
+    "GraphRAG",
+    "Prompt engineering",
+    "Structured outputs",
+    "Text-to-SQL",
+    "LangGraph",
+    "LangChain",
+    "Hugging Face",
+    "Reranking",
+    "Hybrid retrieval",
+    "Model routing",
+    "Embeddings",
+    "Regression",
+    "Classification",
+    "Time-series analysis",
+    "Forecasting",
+    "Feature engineering",
+    "Model evaluation",
+    "Error analysis",
+    "Calibration",
+    "Probability",
+    "Statistical inference",
+    "Scikit-learn",
+    "XGBoost",
+    "TensorFlow",
+    "NumPy",
+    "Pandas",
+    "SciPy",
+    "AWS Bedrock",
+    "AgentCore",
+    "Lambda",
+    "EKS",
+    "S3",
+    "DynamoDB",
+    "Snowflake",
+    "Palantir",
+    "SageMaker",
+    "Python",
+    "SQL",
+    "FastAPI",
+    "REST APIs",
+    "Docker",
+    "Git",
+    "Vercel"
+  ],
+  "skillGroups": [
+    {
+      "title": "Generative AI",
+      "description": "LLM systems designed around retrieval, evidence, orchestration, structured outputs, and human authority.",
+      "items": [
+        "Agentic AI",
+        "Multi-agent workflows",
+        "LLM orchestration",
+        "MCP",
+        "RAG",
+        "GraphRAG",
+        "Prompt engineering",
+        "Structured outputs",
+        "Text-to-SQL"
+      ]
+    },
+    {
+      "title": "AI frameworks",
+      "description": "Frameworks and retrieval methods used to implement reusable AI workflows and decision-support systems.",
+      "items": [
+        "LangGraph",
+        "LangChain",
+        "Hugging Face",
+        "Reranking",
+        "Hybrid retrieval",
+        "Model routing",
+        "Embeddings"
+      ]
+    },
+    {
+      "title": "Machine learning & statistics",
+      "description": "Models, statistical reasoning, and evaluation aligned to time, data quality, and decision cost.",
+      "items": [
+        "Regression",
+        "Classification",
+        "Time-series analysis",
+        "Forecasting",
+        "Feature engineering",
+        "Model evaluation",
+        "Error analysis",
+        "Calibration",
+        "Probability",
+        "Statistical inference"
+      ]
+    },
+    {
+      "title": "ML libraries",
+      "description": "Libraries used for data preparation, statistical analysis, model development, and validation.",
+      "items": [
+        "Scikit-learn",
+        "XGBoost",
+        "TensorFlow",
+        "NumPy",
+        "Pandas",
+        "SciPy"
+      ]
+    },
+    {
+      "title": "Cloud & data",
+      "description": "Cloud, deployment, and enterprise data systems used across professional and independent work.",
+      "items": [
+        "AWS Bedrock",
+        "AgentCore",
+        "Lambda",
+        "EKS",
+        "S3",
+        "DynamoDB",
+        "Snowflake",
+        "Palantir",
+        "SageMaker"
+      ]
+    },
+    {
+      "title": "Engineering",
+      "description": "Supporting programming and delivery tools used to turn AI and ML work into usable systems.",
+      "items": [
+        "Python",
+        "SQL",
+        "FastAPI",
+        "REST APIs",
+        "Docker",
+        "Git",
+        "Vercel"
+      ]
+    }
+  ],
+  "independentPortfolio": [
+    {
+      "name": "NETRA",
+      "category": "Main application",
+      "status": "Production",
+      "purpose": "The common application used to run the trading systems.",
+      "summary": "NETRA is the main application that brings the trading interface, backend APIs, authentication, data access, knowledge base, model connections, and deployment infrastructure into one product.",
+      "problemStatement": "Building every trading tool as a separate application would duplicate the same frontend, backend, login, data-access, and deployment work. It would also make the products harder to maintain and connect.",
+      "solution": "NETRA gives the connected trading projects one shared application. New analytical or trading capabilities can use the same interface, backend, data access, and deployment setup instead of rebuilding them each time.",
+      "systemRelationship": "PINAKA and TRISHUL run on NETRA. MAYA supplies the shared AI capabilities used by the systems. NETRA itself is the application and infrastructure layer, not a trading strategy.",
+      "technologies": [
+        "React",
+        "Vite",
+        "FastAPI",
+        "MongoDB Atlas",
+        "Supabase",
+        "Vercel"
+      ]
+    },
+    {
+      "name": "MAYA",
+      "category": "Shared AI system",
+      "status": "Production",
+      "purpose": "The reusable AI capabilities shared by the trading systems.",
+      "summary": "MAYA manages the Generative AI capabilities shared by the connected projects. This includes agents, model selection, retrieval-augmented generation, GraphRAG, reranking, structured outputs, critique, and contextual explanations.",
+      "problemStatement": "Each trading system needs similar AI capabilities. Implementing model access, retrieval, orchestration, and evaluation separately inside every product would duplicate logic and produce inconsistent results.",
+      "solution": "MAYA provides these capabilities as reusable components. A trading system can request the AI service it needs while the model, retrieval, and orchestration logic stays managed in one place.",
+      "systemRelationship": "MAYA is not a trading strategy and is not the main user interface. It works behind NETRA and can support both PINAKA and TRISHUL whenever they require AI.",
+      "technologies": [
+        "LangGraph",
+        "LangChain",
+        "RAG",
+        "GraphRAG",
+        "Reranking",
+        "LLM routing"
+      ]
+    },
+    {
+      "name": "PINAKA",
+      "category": "AI-assisted trading system",
+      "status": "Production",
+      "purpose": "AI organizes the analysis; the trader makes the final decision.",
+      "summary": "PINAKA helps a trader study market structure, liquidity, auction state, context, execution conditions, and risk. It organizes the available evidence and keeps the trader in control of the final decision.",
+      "problemStatement": "Trading analysis is often spread across charts, notes, rules, and disconnected observations. This makes the reasoning difficult to repeat, review, and improve. Fully automated recommendations can also remove important human context.",
+      "solution": "PINAKA converts the trading process into a structured workflow. AI retrieves relevant knowledge, explains market evidence, critiques the analysis, and highlights missing information. The trader reviews that evidence and decides what action to take.",
+      "systemRelationship": "PINAKA runs on NETRA and uses AI services managed by MAYA. It is designed for human-in-the-loop trading, where AI assists the analysis but does not replace the trader's authority.",
+      "technologies": [
+        "LangGraph",
+        "RAG",
+        "GraphRAG",
+        "Structured outputs",
+        "Human-in-the-loop"
+      ]
+    },
+    {
+      "name": "TRISHUL",
+      "category": "ML and statistical trading system",
+      "status": "In progress",
+      "purpose": "Statistics, machine learning, and tested rules drive the process.",
+      "summary": "TRISHUL is a quantitative trading system that uses market data, statistics, time-series analysis, machine learning, probability, expected value, portfolio rules, and systematic execution.",
+      "problemStatement": "Discretionary trading ideas are difficult to test consistently. A convincing chart or opinion does not show how often an idea works, when it fails, or whether it has positive expected value after risk and changing market conditions.",
+      "solution": "TRISHUL turns trading ideas into testable hypotheses. It defines the data, creates features, identifies market regimes, trains models, validates results through time, and converts reliable evidence into systematic decision rules.",
+      "systemRelationship": "TRISHUL runs on NETRA and can use MAYA for research, retrieval, or explanation. Its trading logic remains statistical and data-driven. Work on the system is in progress.",
+      "technologies": [
+        "Python",
+        "Pandas",
+        "Scikit-Learn",
+        "XGBoost",
+        "Time-series validation",
+        "Statistics"
+      ]
+    }
+  ],
+  "professionalProjects": [
+    {
+      "name": "Voice-Driven Multi-Agent Well Intelligence",
+      "category": "Enterprise GenAI · Energy",
+      "status": "Production",
+      "summary": "Architected the Well Agent so field operators can ask natural-language questions and receive contextual answers about wells, equipment, and operations.",
+      "implementation": "Integrated speech-to-text, text-to-speech, Snowflake querying, session memory, response caching, direct agent routing, and deployment across Bedrock, AgentCore MCP, and Palantir.",
+      "technologies": [
+        "Voice AI",
+        "Multi-agent",
+        "AWS Bedrock",
+        "MCP",
+        "Snowflake",
+        "Text-to-SQL"
+      ]
+    },
+    {
+      "name": "ESP Failure Prediction",
+      "category": "Predictive maintenance · Energy",
+      "status": "In progress",
+      "summary": "Developing a failure-risk workflow for Electric Submersible Pumps using multivariate operational and sensor time-series data.",
+      "implementation": "Work spans data quality, rolling and trend features, classification baselines, tree ensembles, time-aware validation, calibration, and false-alarm analysis.",
+      "technologies": [
+        "Time series",
+        "Feature engineering",
+        "Classification",
+        "PR-AUC",
+        "Calibration"
+      ]
+    },
+    {
+      "name": "Gross Margin Prediction",
+      "category": "Forecasting · Business planning",
+      "status": "In progress",
+      "summary": "Building a machine-learning workflow to estimate future gross margin from historical business and operational data.",
+      "implementation": "The workflow connects data preparation, leakage-aware feature design, business baselines, regression model comparison, temporal validation, and interpretable outputs.",
+      "technologies": [
+        "Regression",
+        "Forecasting",
+        "XGBoost",
+        "Validation",
+        "Decision support"
+      ]
+    },
+    {
+      "name": "COBOL Functional Documentation",
+      "category": "Generative AI · Banking",
+      "status": "Implemented",
+      "summary": "Engineered an LLM-assisted reverse-engineering workflow that turns undocumented COBOL applications into structured functional documentation.",
+      "implementation": "Separated program-flow analysis, dependency interpretation, business-rule extraction, summarization, structured generation, and human validation.",
+      "technologies": [
+        "LLM workflows",
+        "Code understanding",
+        "Structured outputs",
+        "Human review"
+      ]
+    },
+    {
+      "name": "Excel-to-React Migration",
+      "category": "Generative AI · Modernization",
+      "status": "Implemented workflow",
+      "summary": "Developed a GenAI-assisted migration workflow that converts spreadsheet-driven processes into structured requirements for React applications.",
+      "implementation": "Extracts formulas, dependencies, business rules, data requirements, interface behaviour, and validation logic while retaining domain review.",
+      "technologies": [
+        "Requirements extraction",
+        "React",
+        "Business rules",
+        "GenAI",
+        "Human-in-the-loop"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "role": "Software Engineer — GenAI & Machine Learning",
+      "company": "LTIMindtree",
+      "period": "May 2024 — Present",
+      "location": "Kolkata, India",
+      "summary": "Individual contributor across enterprise GenAI, industrial predictive modelling, application modernization, and cloud AI deployment."
+    },
+    {
+      "role": "Software Engineering Intern — IGNITE",
+      "company": "LTIMindtree",
+      "period": "Aug 2023 — Oct 2023",
+      "location": "Remote",
+      "summary": "Built cloud-based machine-learning prototypes and worked across data processing, model deployment, and enterprise AI application workflows using AWS."
+    },
+    {
+      "role": "Amazon ML Summer School",
+      "company": "Amazon",
+      "period": "Selected participant",
+      "location": "Selective learning program",
+      "summary": "Selected for advanced machine-learning training spanning deep learning, probabilistic graphical models, causal inference, and reinforcement learning."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Massachusetts Institute of Technology (MITx)",
+      "degree": "MicroMasters in Statistics and Data Science — Methods Track",
+      "period": "Jan 2026 — Present",
+      "location": "Remote"
+    },
+    {
+      "institution": "St. Thomas' College of Engineering and Technology",
+      "degree": "B.Tech in Information Technology — CGPA 9.10/10",
+      "period": "Aug 2019 — Jul 2023",
+      "location": "Kolkata, India"
+    }
+  ],
+  "achievementsAndCredentials": [
+    {
+      "title": "Enterprise AI recognition",
+      "description": "Contributed to an enterprise AI system featured in The Wall Street Journal and received the LTIM Energy Portfolio Innovators Award."
+    },
+    {
+      "title": "Competitive programming",
+      "description": "Global Rank 19 in the CodeChef November Cook-Off among 6,000+ participants and 1,000+ DSA problems solved."
+    },
+    {
+      "title": "GitHub Copilot Certified",
+      "description": "Certified in AI-assisted software-development workflows and responsible application of developer AI tools."
+    }
+  ]
+}

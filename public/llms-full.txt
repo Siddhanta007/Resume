@@ -1,0 +1,211 @@
+# Sri Krishna — Complete Professional Context
+
+## Identity
+
+- Professional title: Applied AI Engineer
+- Location: Kolkata, India
+- Availability: Open to applied AI and machine-learning opportunities
+- Email: srikrishna11ray@gmail.com
+- LinkedIn: https://www.linkedin.com/in/sri-krishna007/
+- GitHub: https://github.com/Siddhanta007
+- Website: https://resume-hazel-tau-84.vercel.app/
+
+## Professional summary
+
+Applied AI Engineer with 2+ years of experience turning industrial, enterprise, and financial problems into multi-agent workflows, predictive models, and human-in-the-loop decision systems.
+
+Currently deepening statistical modelling and machine learning through the MITx MicroMasters while building toward quantitative ML engineering.
+
+Important interpretation: Sri Krishna is an Applied AI and Machine Learning Engineer. Financial and market data are chosen domains for engineering and research, not a claim that trading is his primary profession.
+
+## Professional impact
+
+- 2.5+: years building AI systems
+- 05: professional AI and ML systems
+- 5–10%: less time spent on routine well monitoring
+- 50%+: manual documentation effort reduced
+
+## Skills and keywords
+
+### Generative AI
+
+LLM systems designed around retrieval, evidence, orchestration, structured outputs, and human authority.
+
+- Agentic AI
+- Multi-agent workflows
+- LLM orchestration
+- MCP
+- RAG
+- GraphRAG
+- Prompt engineering
+- Structured outputs
+- Text-to-SQL
+### AI frameworks
+
+Frameworks and retrieval methods used to implement reusable AI workflows and decision-support systems.
+
+- LangGraph
+- LangChain
+- Hugging Face
+- Reranking
+- Hybrid retrieval
+- Model routing
+- Embeddings
+### Machine learning & statistics
+
+Models, statistical reasoning, and evaluation aligned to time, data quality, and decision cost.
+
+- Regression
+- Classification
+- Time-series analysis
+- Forecasting
+- Feature engineering
+- Model evaluation
+- Error analysis
+- Calibration
+- Probability
+- Statistical inference
+### ML libraries
+
+Libraries used for data preparation, statistical analysis, model development, and validation.
+
+- Scikit-learn
+- XGBoost
+- TensorFlow
+- NumPy
+- Pandas
+- SciPy
+### Cloud & data
+
+Cloud, deployment, and enterprise data systems used across professional and independent work.
+
+- AWS Bedrock
+- AgentCore
+- Lambda
+- EKS
+- S3
+- DynamoDB
+- Snowflake
+- Palantir
+- SageMaker
+### Engineering
+
+Supporting programming and delivery tools used to turn AI and ML work into usable systems.
+
+- Python
+- SQL
+- FastAPI
+- REST APIs
+- Docker
+- Git
+- Vercel
+
+## Independent portfolio
+
+### NETRA
+
+- Category: Main application
+- Status: Production
+- Purpose: The common application used to run the trading systems.
+- What it is: NETRA is the main application that brings the trading interface, backend APIs, authentication, data access, knowledge base, model connections, and deployment infrastructure into one product.
+- Problem statement: Building every trading tool as a separate application would duplicate the same frontend, backend, login, data-access, and deployment work. It would also make the products harder to maintain and connect.
+- Solution: NETRA gives the connected trading projects one shared application. New analytical or trading capabilities can use the same interface, backend, data access, and deployment setup instead of rebuilding them each time.
+- Relationship: PINAKA and TRISHUL run on NETRA. MAYA supplies the shared AI capabilities used by the systems. NETRA itself is the application and infrastructure layer, not a trading strategy.
+- Technology: React, Vite, FastAPI, MongoDB Atlas, Supabase, Vercel
+### MAYA
+
+- Category: Shared AI system
+- Status: Production
+- Purpose: The reusable AI capabilities shared by the trading systems.
+- What it is: MAYA manages the Generative AI capabilities shared by the connected projects. This includes agents, model selection, retrieval-augmented generation, GraphRAG, reranking, structured outputs, critique, and contextual explanations.
+- Problem statement: Each trading system needs similar AI capabilities. Implementing model access, retrieval, orchestration, and evaluation separately inside every product would duplicate logic and produce inconsistent results.
+- Solution: MAYA provides these capabilities as reusable components. A trading system can request the AI service it needs while the model, retrieval, and orchestration logic stays managed in one place.
+- Relationship: MAYA is not a trading strategy and is not the main user interface. It works behind NETRA and can support both PINAKA and TRISHUL whenever they require AI.
+- Technology: LangGraph, LangChain, RAG, GraphRAG, Reranking, LLM routing
+### PINAKA
+
+- Category: AI-assisted trading system
+- Status: Production
+- Purpose: AI organizes the analysis; the trader makes the final decision.
+- What it is: PINAKA helps a trader study market structure, liquidity, auction state, context, execution conditions, and risk. It organizes the available evidence and keeps the trader in control of the final decision.
+- Problem statement: Trading analysis is often spread across charts, notes, rules, and disconnected observations. This makes the reasoning difficult to repeat, review, and improve. Fully automated recommendations can also remove important human context.
+- Solution: PINAKA converts the trading process into a structured workflow. AI retrieves relevant knowledge, explains market evidence, critiques the analysis, and highlights missing information. The trader reviews that evidence and decides what action to take.
+- Relationship: PINAKA runs on NETRA and uses AI services managed by MAYA. It is designed for human-in-the-loop trading, where AI assists the analysis but does not replace the trader's authority.
+- Technology: LangGraph, RAG, GraphRAG, Structured outputs, Human-in-the-loop
+### TRISHUL
+
+- Category: ML and statistical trading system
+- Status: In progress
+- Purpose: Statistics, machine learning, and tested rules drive the process.
+- What it is: TRISHUL is a quantitative trading system that uses market data, statistics, time-series analysis, machine learning, probability, expected value, portfolio rules, and systematic execution.
+- Problem statement: Discretionary trading ideas are difficult to test consistently. A convincing chart or opinion does not show how often an idea works, when it fails, or whether it has positive expected value after risk and changing market conditions.
+- Solution: TRISHUL turns trading ideas into testable hypotheses. It defines the data, creates features, identifies market regimes, trains models, validates results through time, and converts reliable evidence into systematic decision rules.
+- Relationship: TRISHUL runs on NETRA and can use MAYA for research, retrieval, or explanation. Its trading logic remains statistical and data-driven. Work on the system is in progress.
+- Technology: Python, Pandas, Scikit-Learn, XGBoost, Time-series validation, Statistics
+
+## Professional projects
+
+### Voice-Driven Multi-Agent Well Intelligence
+
+- Category: Enterprise GenAI · Energy
+- Status: Production
+- Summary: Architected the Well Agent so field operators can ask natural-language questions and receive contextual answers about wells, equipment, and operations.
+- Implementation: Integrated speech-to-text, text-to-speech, Snowflake querying, session memory, response caching, direct agent routing, and deployment across Bedrock, AgentCore MCP, and Palantir.
+- Technology and methods: Voice AI, Multi-agent, AWS Bedrock, MCP, Snowflake, Text-to-SQL
+### ESP Failure Prediction
+
+- Category: Predictive maintenance · Energy
+- Status: In progress
+- Summary: Developing a failure-risk workflow for Electric Submersible Pumps using multivariate operational and sensor time-series data.
+- Implementation: Work spans data quality, rolling and trend features, classification baselines, tree ensembles, time-aware validation, calibration, and false-alarm analysis.
+- Technology and methods: Time series, Feature engineering, Classification, PR-AUC, Calibration
+### Gross Margin Prediction
+
+- Category: Forecasting · Business planning
+- Status: In progress
+- Summary: Building a machine-learning workflow to estimate future gross margin from historical business and operational data.
+- Implementation: The workflow connects data preparation, leakage-aware feature design, business baselines, regression model comparison, temporal validation, and interpretable outputs.
+- Technology and methods: Regression, Forecasting, XGBoost, Validation, Decision support
+### COBOL Functional Documentation
+
+- Category: Generative AI · Banking
+- Status: Implemented
+- Summary: Engineered an LLM-assisted reverse-engineering workflow that turns undocumented COBOL applications into structured functional documentation.
+- Implementation: Separated program-flow analysis, dependency interpretation, business-rule extraction, summarization, structured generation, and human validation.
+- Technology and methods: LLM workflows, Code understanding, Structured outputs, Human review
+### Excel-to-React Migration
+
+- Category: Generative AI · Modernization
+- Status: Implemented workflow
+- Summary: Developed a GenAI-assisted migration workflow that converts spreadsheet-driven processes into structured requirements for React applications.
+- Implementation: Extracts formulas, dependencies, business rules, data requirements, interface behaviour, and validation logic while retaining domain review.
+- Technology and methods: Requirements extraction, React, Business rules, GenAI, Human-in-the-loop
+
+## Experience
+
+### Software Engineer — GenAI & Machine Learning — LTIMindtree
+
+- Period: May 2024 — Present
+- Location or program type: Kolkata, India
+- Summary: Individual contributor across enterprise GenAI, industrial predictive modelling, application modernization, and cloud AI deployment.
+### Software Engineering Intern — IGNITE — LTIMindtree
+
+- Period: Aug 2023 — Oct 2023
+- Location or program type: Remote
+- Summary: Built cloud-based machine-learning prototypes and worked across data processing, model deployment, and enterprise AI application workflows using AWS.
+### Amazon ML Summer School — Amazon
+
+- Period: Selected participant
+- Location or program type: Selective learning program
+- Summary: Selected for advanced machine-learning training spanning deep learning, probabilistic graphical models, causal inference, and reinforcement learning.
+
+## Education
+
+- **Massachusetts Institute of Technology (MITx)** — MicroMasters in Statistics and Data Science — Methods Track; Jan 2026 — Present; Remote
+- **St. Thomas' College of Engineering and Technology** — B.Tech in Information Technology — CGPA 9.10/10; Aug 2019 — Jul 2023; Kolkata, India
+
+## Achievements and credentials
+
+- **Enterprise AI recognition**: Contributed to an enterprise AI system featured in The Wall Street Journal and received the LTIM Energy Portfolio Innovators Award.
+- **Competitive programming**: Global Rank 19 in the CodeChef November Cook-Off among 6,000+ participants and 1,000+ DSA problems solved.
+- **GitHub Copilot Certified**: Certified in AI-assisted software-development workflows and responsible application of developer AI tools.

@@ -4,8 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "generate:ai": "node website_tools/generate-ai-assets.mjs",
+    "dev": "npm run generate:ai && vite",
+    "build": "npm run generate:ai && vite build",
     "preview": "vite preview"
   },
   "dependencies": {

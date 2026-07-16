@@ -13,10 +13,11 @@ function Brand() {
 }
 
 const navLinks = [
-  ['Platform', '#platform'],
+  ['Portfolio', '#platform'],
   ['Work', '#work'],
+  ['Experience', '#experience'],
   ['Skills', '#skills'],
-  ['Proof', '#proof']
+  ['Achievements', '#achievements']
 ];
 
 function Header() {
@@ -177,12 +178,12 @@ function Platform() {
     <section className="section platform-section" id="platform">
       <SectionHeading
         index="01"
-        eyebrow="Independent product engineering"
-        title="Four systems."
-        accent="Four clear responsibilities."
+        eyebrow="Financial and market data projects"
+        title="AI and ML engineering"
+        accent="applied to market data."
         description={data.platform.summary}
       />
-      <div className="product-tabs" role="tablist" aria-label="NETRA product systems" data-reveal>
+      <div className="product-selector" role="tablist" aria-label="Connected financial AI projects" data-reveal>
         {data.platform.products.map((item, index) => (
           <button
             id={`product-tab-${index}`}
@@ -196,38 +197,57 @@ function Platform() {
             onClick={() => setActiveProduct(index)}
             onKeyDown={(event) => onTabKeyDown(event, index)}
           >
-            <span>0{index + 1}</span>
+            <span className="selector-index">0{index + 1}</span>
+            <small>{item.name === 'TRISHUL' ? `(${item.status})` : item.status}</small>
+            <p>{item.type}</p>
             <strong>{item.name}</strong>
-            <small>{item.status}</small>
+            <em>{item.short}</em>
           </button>
         ))}
       </div>
       <article
-        className="product-hero"
+        className="product-detail"
         id="product-panel"
         role="tabpanel"
         aria-labelledby={`product-tab-${activeProduct}`}
         key={product.name}
       >
-        <div className="product-hero-meta">
-          <p>{product.type}</p>
-          <span className={product.status === 'Under development' ? 'status status-development' : 'status'}>{product.status}</span>
-        </div>
-        <div className="product-hero-name">
-          <p>0{activeProduct + 1}</p>
-          <h3>{product.name}<span>.</span></h3>
-        </div>
-        <div className="product-hero-story">
-          <h4>{product.statement}</h4>
-          <p>{product.description}</p>
-          <p>{product.detail}</p>
-          <ul>{product.tags.map((tag) => <li key={tag}>{tag}</li>)}</ul>
+        <aside className="product-identity">
+          <div>
+            <span>0{activeProduct + 1}</span>
+            <p>{product.type}</p>
+            <small className={product.status === 'In progress' ? 'status status-development' : 'status'}>{product.name === 'TRISHUL' ? `(${product.status})` : product.status}</small>
+          </div>
+          <h3>{product.name}</h3>
+          <p className="product-statement">{product.statement}</p>
           {product.name === 'NETRA' && (
             <div className="platform-actions">
-              <ExternalLink className="button button-accent" href={data.links.netra}>Open platform</ExternalLink>
+              <ExternalLink className="button button-dark" href={data.links.netra}>Open NETRA</ExternalLink>
               <ExternalLink className="inline-link" href={data.links.netraStory}>Read product story</ExternalLink>
             </div>
           )}
+        </aside>
+        <div className="product-explanation">
+          <section>
+            <h4>What it is</h4>
+            <p>{product.description}</p>
+          </section>
+          <section>
+            <h4>Problem statement</h4>
+            <p>{product.problem}</p>
+          </section>
+          <section>
+            <h4>Solution</h4>
+            <p>{product.solution}</p>
+          </section>
+          <section>
+            <h4>How it connects</h4>
+            <p>{product.detail}</p>
+          </section>
+          <section className="product-technology">
+            <h4>Technology</h4>
+            <ul>{product.tags.map((tag) => <li key={tag}>{tag}</li>)}</ul>
+          </section>
         </div>
       </article>
     </section>
@@ -239,7 +259,7 @@ function Work() {
     <section className="section work-section" id="work">
       <SectionHeading
         index="02"
-        eyebrow="Professional systems"
+        eyebrow="Professional projects"
         title="From field operations"
         accent="to legacy modernization."
         description="Five distinct problems across enterprise GenAI and applied machine learning. Public summaries preserve client confidentiality while showing the engineering decisions involved."
@@ -255,6 +275,20 @@ function Work() {
           </article>
         ))}
       </div>
+    </section>
+  );
+}
+
+function Experience() {
+  return (
+    <section className="section experience-section" id="experience">
+      <SectionHeading
+        index="03"
+        eyebrow="Career and selective learning"
+        title="Where I worked"
+        accent="and learned."
+        description="Full-time engineering, an enterprise internship, and a selective machine-learning program—kept separate from the projects delivered within those experiences."
+      />
       <div className="timeline" data-reveal>
         {data.experience.map((item, index) => (
           <article key={item.role}>
@@ -272,11 +306,11 @@ function Skills() {
   return (
     <section className="section skills-section" id="skills">
       <SectionHeading
-        index="03"
+        index="04"
         eyebrow="Evidence-backed toolkit"
         title="Technical range,"
         accent="grounded in systems."
-        description="Keywords matter, but only when they connect to work. These capabilities span analysis, application engineering, model development, retrieval, orchestration, and deployment."
+        description="Keywords matter, but only when they connect to work. These capabilities span analysis, machine learning, retrieval, orchestration, and deployment."
       />
       <div className="skills-grid">
         {data.skillGroups.map((group, index) => (
@@ -293,13 +327,13 @@ function Skills() {
 
 function Proof() {
   return (
-    <section className="section proof-section" id="proof">
+    <section className="section proof-section" id="achievements">
       <SectionHeading
-        index="04"
-        eyebrow="Recognition & education"
-        title="The work has"
-        accent="external evidence."
-        description="Recognition, selective learning, competitive problem solving, and formal education—presented as proof, not decoration."
+        index="05"
+        eyebrow="Achievements & education"
+        title="Recognition, credentials"
+        accent="and education."
+        description="Professional recognition, competitive programming, certification, and formal education in one place."
       />
       <div className="proof-layout">
         <div className="recognition-list">
@@ -360,6 +394,7 @@ function App() {
         <Hero />
         <Platform />
         <Work />
+        <Experience />
         <Skills />
         <Proof />
         <Contact />

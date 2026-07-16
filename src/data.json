@@ -18,49 +18,61 @@
     "direction": "Currently deepening statistical modelling and machine learning through the MITx MicroMasters while building toward quantitative ML engineering."
   },
   "proof": [
-    { "value": "2+", "label": "years building AI systems" },
+    { "value": "2.5+", "label": "years building AI systems" },
     { "value": "05", "label": "professional AI and ML systems" },
-    { "value": "19", "label": "global CodeChef rank" },
-    { "value": "9.10", "label": "B.Tech CGPA" }
+    { "value": "5–10%", "label": "less time spent on routine well monitoring" },
+    { "value": "50%+", "label": "manual documentation effort reduced" }
   ],
   "platform": {
-    "summary": "Four connected systems with distinct responsibilities across platform engineering, shared AI, human-guided trading, and statistical decision-making.",
+    "summary": "I use financial and market data as a problem domain for building AI and machine-learning systems. The work explores two engineering questions: how AI can organize complex information for human decision-making, and how statistics and machine learning can turn market hypotheses into testable, repeatable workflows.",
     "products": [
       {
         "name": "NETRA",
-        "type": "Core platform",
+        "type": "Main application",
         "status": "Production",
-        "statement": "The place where every system runs.",
-        "description": "NETRA provides the shared frontend, backend, authentication, terminal, knowledge infrastructure, and deployment foundation for the complete trading ecosystem.",
-        "detail": "It hosts both human-in-the-loop and data-driven trading systems while keeping product experience, infrastructure, and shared services consistent.",
+        "short": "The common application used to run the trading systems.",
+        "statement": "One place to run the user interface, backend, data, and AI services.",
+        "description": "NETRA is the main application that brings the trading interface, backend APIs, authentication, data access, knowledge base, model connections, and deployment infrastructure into one product.",
+        "problem": "Building every trading tool as a separate application would duplicate the same frontend, backend, login, data-access, and deployment work. It would also make the products harder to maintain and connect.",
+        "solution": "NETRA gives the connected trading projects one shared application. New analytical or trading capabilities can use the same interface, backend, data access, and deployment setup instead of rebuilding them each time.",
+        "detail": "PINAKA and TRISHUL run on NETRA. MAYA supplies the shared AI capabilities used by the systems. NETRA itself is the application and infrastructure layer, not a trading strategy.",
         "tags": ["React", "Vite", "FastAPI", "MongoDB Atlas", "Supabase", "Vercel"]
       },
       {
         "name": "MAYA",
-        "type": "Shared GenAI component layer",
+        "type": "Shared AI system",
         "status": "Production",
-        "statement": "The intelligence shared across the platform.",
-        "description": "Manages agents, model orchestration, RAG, GraphRAG, retrieval, critique, contextual explanation, and the reusable AI services across NETRA.",
-        "detail": "MAYA keeps model access, retrieval, orchestration, and future learning capabilities reusable instead of duplicating AI logic inside each trading system.",
+        "short": "The reusable AI capabilities shared by the trading systems.",
+        "statement": "A common AI layer for retrieval, reasoning, models, and agents.",
+        "description": "MAYA manages the Generative AI capabilities shared by the connected projects. This includes agents, model selection, retrieval-augmented generation, GraphRAG, reranking, structured outputs, critique, and contextual explanations.",
+        "problem": "Each trading system needs similar AI capabilities. Implementing model access, retrieval, orchestration, and evaluation separately inside every product would duplicate logic and produce inconsistent results.",
+        "solution": "MAYA provides these capabilities as reusable components. A trading system can request the AI service it needs while the model, retrieval, and orchestration logic stays managed in one place.",
+        "detail": "MAYA is not a trading strategy and is not the main user interface. It works behind NETRA and can support both PINAKA and TRISHUL whenever they require AI.",
         "tags": ["LangGraph", "LangChain", "RAG", "GraphRAG", "Reranking", "LLM routing"]
       },
       {
         "name": "PINAKA",
-        "type": "Human-in-the-loop trading system",
+        "type": "AI-assisted trading system",
         "status": "Production",
-        "statement": "AI assists. The human decides.",
-        "description": "Combines agentic AI assistance with human authority across market structure, liquidity, auction state, context, execution, and risk.",
-        "detail": "PINAKA turns discretionary trading knowledge into a structured decision process without removing the retail trader from the final decision loop.",
-        "tags": ["Agentic AI", "Human oversight", "Market doctrine", "Decision support"]
+        "short": "AI organizes the analysis; the trader makes the final decision.",
+        "statement": "A structured decision-support system for human-led trading.",
+        "description": "PINAKA helps a trader study market structure, liquidity, auction state, context, execution conditions, and risk. It organizes the available evidence and keeps the trader in control of the final decision.",
+        "problem": "Trading analysis is often spread across charts, notes, rules, and disconnected observations. This makes the reasoning difficult to repeat, review, and improve. Fully automated recommendations can also remove important human context.",
+        "solution": "PINAKA converts the trading process into a structured workflow. AI retrieves relevant knowledge, explains market evidence, critiques the analysis, and highlights missing information. The trader reviews that evidence and decides what action to take.",
+        "detail": "PINAKA runs on NETRA and uses AI services managed by MAYA. It is designed for human-in-the-loop trading, where AI assists the analysis but does not replace the trader's authority.",
+        "tags": ["LangGraph", "RAG", "GraphRAG", "Structured outputs", "Human-in-the-loop"]
       },
       {
         "name": "TRISHUL",
-        "type": "Statistical and data-driven trading system",
-        "status": "Under development",
-        "statement": "Evidence before conviction.",
-        "description": "An end-to-end quantitative system built around evidence, probability, expected value, validation, portfolio construction, and systematic decisions.",
-        "detail": "TRISHUL is hosted on NETRA's frontend and backend and can reuse MAYA's GenAI components, while its primary trading logic remains statistical and data-driven.",
-        "tags": ["Statistics", "Time series", "Machine learning", "Calibration", "Expected value"]
+        "type": "ML and statistical trading system",
+        "status": "In progress",
+        "short": "Statistics, machine learning, and tested rules drive the process.",
+        "statement": "A systematic trading system built around measurable evidence.",
+        "description": "TRISHUL is a quantitative trading system that uses market data, statistics, time-series analysis, machine learning, probability, expected value, portfolio rules, and systematic execution.",
+        "problem": "Discretionary trading ideas are difficult to test consistently. A convincing chart or opinion does not show how often an idea works, when it fails, or whether it has positive expected value after risk and changing market conditions.",
+        "solution": "TRISHUL turns trading ideas into testable hypotheses. It defines the data, creates features, identifies market regimes, trains models, validates results through time, and converts reliable evidence into systematic decision rules.",
+        "detail": "TRISHUL runs on NETRA and can use MAYA for research, retrieval, or explanation. Its trading logic remains statistical and data-driven. Work on the system is in progress.",
+        "tags": ["Python", "Pandas", "Scikit-Learn", "XGBoost", "Time-series validation", "Statistics"]
       }
     ]
   },
@@ -120,38 +132,51 @@
       "period": "Aug 2023 — Oct 2023",
       "location": "Remote",
       "summary": "Built cloud-based machine-learning prototypes and worked across data processing, model deployment, and enterprise AI application workflows using AWS."
+    },
+    {
+      "role": "Amazon ML Summer School",
+      "company": "Amazon",
+      "period": "Selected participant",
+      "location": "Selective learning program",
+      "summary": "Selected for advanced machine-learning training spanning deep learning, probabilistic graphical models, causal inference, and reinforcement learning."
     }
   ],
   "skillGroups": [
     {
-      "title": "Programming & data",
-      "description": "The implementation layer for analysis, APIs, and production workflows.",
-      "items": ["Python", "SQL", "NumPy", "Pandas", "SciPy", "Scikit-learn", "Snowflake", "FastAPI", "React"]
-    },
-    {
-      "title": "Machine learning",
-      "description": "Models and evaluation aligned to the data-generating process and decision cost.",
-      "items": ["Regression", "Classification", "Time-series analysis", "Feature engineering", "XGBoost", "Model evaluation", "Error analysis", "Calibration"]
-    },
-    {
       "title": "Generative AI",
-      "description": "Bounded LLM systems with retrieval, evidence, orchestration, and human authority.",
-      "items": ["Agentic AI", "Multi-agent workflows", "LangGraph", "LangChain", "RAG", "GraphRAG", "Reranking", "MCP", "Structured outputs", "Text-to-SQL"]
+      "description": "LLM systems designed around retrieval, evidence, orchestration, structured outputs, and human authority.",
+      "items": ["Agentic AI", "Multi-agent workflows", "LLM orchestration", "MCP", "RAG", "GraphRAG", "Prompt engineering", "Structured outputs", "Text-to-SQL"]
     },
     {
-      "title": "Cloud & platforms",
-      "description": "Deployment and data systems used across enterprise and independent work.",
-      "items": ["AWS Bedrock", "AgentCore", "Lambda", "EKS", "S3", "DynamoDB", "Palantir", "Docker", "Git", "Vercel"]
+      "title": "AI frameworks",
+      "description": "Frameworks and retrieval methods used to implement reusable AI workflows and decision-support systems.",
+      "items": ["LangGraph", "LangChain", "Hugging Face", "Reranking", "Hybrid retrieval", "Model routing", "Embeddings"]
+    },
+    {
+      "title": "Machine learning & statistics",
+      "description": "Models, statistical reasoning, and evaluation aligned to time, data quality, and decision cost.",
+      "items": ["Regression", "Classification", "Time-series analysis", "Forecasting", "Feature engineering", "Model evaluation", "Error analysis", "Calibration", "Probability", "Statistical inference"]
+    },
+    {
+      "title": "ML libraries",
+      "description": "Libraries used for data preparation, statistical analysis, model development, and validation.",
+      "items": ["Scikit-learn", "XGBoost", "TensorFlow", "NumPy", "Pandas", "SciPy"]
+    },
+    {
+      "title": "Cloud & data",
+      "description": "Cloud, deployment, and enterprise data systems used across professional and independent work.",
+      "items": ["AWS Bedrock", "AgentCore", "Lambda", "EKS", "S3", "DynamoDB", "Snowflake", "Palantir", "SageMaker"]
+    },
+    {
+      "title": "Engineering",
+      "description": "Supporting programming and delivery tools used to turn AI and ML work into usable systems.",
+      "items": ["Python", "SQL", "FastAPI", "REST APIs", "Docker", "Git", "Vercel"]
     }
   ],
   "recognition": [
     {
       "title": "Enterprise AI recognition",
-      "description": "Contributed to an enterprise AI platform featured in The Wall Street Journal and received the LTIM Energy Portfolio Innovators Award."
-    },
-    {
-      "title": "Amazon ML Summer School",
-      "description": "Selected for advanced training spanning deep learning, probabilistic graphical models, causal inference, and reinforcement learning."
+      "description": "Contributed to an enterprise AI system featured in The Wall Street Journal and received the LTIM Energy Portfolio Innovators Award."
     },
     {
       "title": "Competitive programming",
